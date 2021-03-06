@@ -7,7 +7,7 @@ int main()
    printf("Enter number of students: ");
    scanf("%d", &num);
 
-   FILE *fptr = NULL;
+   FILE *fptr = "NULL";
    fptr = (fopen("C:\\student.txt", "w"));
    if(fptr == NULL)
    {
